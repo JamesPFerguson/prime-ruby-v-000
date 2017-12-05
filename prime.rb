@@ -11,7 +11,7 @@ prime = true
   while i <= holder
     x = 0
     while x < holder
-      result = i * holder - x
+      result = i * (holder - x)
       if result == num
         prime = false
       end
