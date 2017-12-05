@@ -4,7 +4,7 @@ if (num < 0)
   return false
 end
 
-prime = true
+prime = false
 
   i = 2
   holder = num / 2
@@ -13,7 +13,7 @@ prime = true
     while x < holder
       result = i * holder - x
       if result == num
-        prime = false
+        prime = true
       end
       x += 1
     end
