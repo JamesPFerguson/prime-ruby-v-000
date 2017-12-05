@@ -12,7 +12,9 @@ prime = true
     x = 0
     while x < holder
       result = i * holder - x
-      prime = false if result == num
+      if result == num
+        prime = false
+      end  
       x += 1
     end
     i += 1
