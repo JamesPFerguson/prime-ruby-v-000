@@ -1,7 +1,7 @@
 def prime?(num)
 
 if (num < 0)
-  false
+  return false
 end
 
 prime = true
