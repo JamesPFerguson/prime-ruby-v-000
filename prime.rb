@@ -3,6 +3,9 @@ def prime?(num)
 if (num <= 0 || num == 1)
   return false
 end
+if (num == 2 || num == 3)
+  true
+end
 
 prime = true
 
