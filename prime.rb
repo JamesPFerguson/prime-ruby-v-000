@@ -12,4 +12,5 @@ prime = true
     end
     i += 1
   end
+  prime
 end
