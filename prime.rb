@@ -7,16 +7,18 @@ end
 prime = true
 
   i = 1
+  
   holder = num / 2
+  
   while i <= holder
-    x = 0
+    x = -1
     i += 1
     while x < holder
+      x += 1
       result = i * (holder - x)
       if result == num
         prime = false
       end
-      x += 1
     end
 
   end
