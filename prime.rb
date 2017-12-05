@@ -7,9 +7,9 @@ end
 prime = true
 
   i = 1
-  
+
   holder = num / 2
-  
+
   while i <= holder
     x = -1
     i += 1
