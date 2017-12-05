@@ -1,5 +1,9 @@
 def prime?(num)
 
+if (num < 0)
+  false
+end
+
 prime = true
 
   i = 2
