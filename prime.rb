@@ -18,7 +18,7 @@ prime = true
       end
       x += 1
     end
-    
+
   end
   prime
 end
