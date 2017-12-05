@@ -11,11 +11,11 @@ prime = true
   holder = num / 2
 
   while i <= holder
-    x = -1
+    x = 0
     i += 1
     while x < holder
-      x += 1
       result = i * (holder - x)
+      x += 1
       if result == num
         prime = false
       end
