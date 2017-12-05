@@ -14,7 +14,7 @@ prime = true
       result = i * holder - x
       if result == num
         prime = false
-      end  
+      end
       x += 1
     end
     i += 1
