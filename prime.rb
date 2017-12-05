@@ -6,10 +6,11 @@ end
 
 prime = true
 
-  i = 2
+  i = 1
   holder = num / 2
   while i <= holder
     x = 0
+    i += 1
     while x < holder
       result = i * (holder - x)
       if result == num
@@ -17,7 +18,7 @@ prime = true
       end
       x += 1
     end
-    i += 1
+    
   end
   prime
 end
