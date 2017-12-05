@@ -6,7 +6,6 @@ end
 if (num == 2 || num == 3)
   true
 end
-
 prime = true
 
   i = 2
