@@ -1,9 +1,12 @@
 def prime?(num)
+prime = true
 
-  if 2..num * 2..num == num
-    false
-  else
-    true
-  end
+  i = 2
+  holder = num /2
+  while i <= holder
+    x = 0
+    while x < holder
+      i * holder - x
+      x += 1
 
 end
